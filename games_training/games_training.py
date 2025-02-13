@@ -1,6 +1,7 @@
 
 # rabbit game using directions and with ability to control volumes and speed
-
+#edit
+#edit2
 
 import pygame
 import sys
@@ -22,7 +23,7 @@ green=(0,255,0)
 blue=(0,0,255)
 screen.fill(white)
 #background = pygame.image.load(r"/games_training/garden.jpg")
-background = pygame.image.load("C:\\Users\\Mohamed Emad\\source\\repos\\games_training\\games_training\\grass.jpg")
+background = pygame.image.load("grass.jpg")
 background = pygame.transform.smoothscale(background, (window_width, window_height))
 pygame.display.update()
 #==================================================================
@@ -33,12 +34,12 @@ def moving_rabbit():
  rabbit_y=window_height//2
  rabbit_width=80
  rabbit_height=100
- image_rabbit = pygame.image.load(r"C:\Users\Mohamed Emad\source\repos\games_training\games_training\rabbit.png")
+ image_rabbit = pygame.image.load(r"rabbit.png")
  image_rabbit = pygame.transform.smoothscale(image_rabbit, (rabbit_width, rabbit_height)) 
 
  carrot_width=60
  carrot_height=85
- image_carrot = pygame.image.load(r"C:\Users\Mohamed Emad\source\repos\games_training\games_training\carrot2.png")
+ image_carrot = pygame.image.load(r"carrot2.png")
  image_carrot = pygame.transform.smoothscale(image_carrot, (carrot_width, carrot_height)) 
  rabbit_step=3
  jump_height=25
